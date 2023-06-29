@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
+
+
+
+.cards {
+  gap: 50px;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  background: #eee4e2;
+  position: relative;
+  border: 2px #eee4e2 solid;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.cards-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+}
+
+.cards-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #9d8779;
+  color: #eee4e2;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.text-body {
+  color: rgb(134, 134, 134);
+}
+
+
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+.cards:hover {
+  border-color: #9d8779;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cards:hover .cards-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+.linkbutton {
+  text-decoration: none;
+  color: #eee4e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main {
+
+background-color: #eee4e2;
+}
+
+nav {
+  background-color: #eee4e2;
+}
+
+.nav-link {
+  font-family: 'Forum';
+
+}
+
+#Logo {
+  width: 25px;
+}
+
+#Imgheader {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+#offcanvasNavbar {
+  background-color: #9d8779;
+}
+
+#Secao1 {
+  background-color: #eee4e2;
+  height: 70vh;
+}
+
+#Sobre {
+  background-color: #9d8779;
+  padding-top: 3rem;
+  padding-left: 25rem;
+  height: 60vh;
+  width: 80%;
+  position: relative;
+  left: 8rem;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Forum';
+  font-weight: 500;
+  color: #eee4e2;
+  border-radius: 15px;
+
+}
+
+#Fotolivia {
+  display: flex;
+  position: absolute;
+  top: 25rem;
+  left: 8rem;
+  width: 35vw;
+  height: 55vh;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+#Fundofotolivia {
+  background-color: #9d8779;
+  display: flex;
+  position: absolute;
+  top: 24.2rem;
+  left: 7rem;
+  width: 35vw;
+  height: 58vh;
+  border-radius: 15px;
+}
+
+#Secao2 {
+  display: flex;
+  background-image: url(/imagens/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 5rem;
+  height: 75vh;
+  width: 100%;
+
+}
+
+#TextoEspecialidades {
+
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  font-family: 'Forum';
+  color: #9d8779;
+  justify-content: center;
+}
+
+
+#CardEspecialidade {
+
+  position: absolute;
+  top: 10rem;
+  left: 11rem;
+  width: 75vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #eee4e2;
+  font-family: 'Forum';
+
+}
+
+.cards {
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  background: #eee4e2;
+  position: relative;
+  border: 2px #eee4e2 solid;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.cards-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+}
+
+.cards-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #9d8779;
+  color: #eee4e2;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.text-body {
+  color: rgb(134, 134, 134);
+}
+
+
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+.cards:hover {
+  border-color: #9d8779;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cards:hover .cards-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+.linkbutton {
+  text-decoration: none;
+  color: #eee4e2;
+}
+
+#Secao3 {
+  background-color: #e9d7c9;
+  width: 100%;
+  height: 80vh;
+}
+
+#Atendimentoeeventos {
+  text-align: center;
+  position: relative;
+  top: 5rem;
+  height: 5rem;
+  width: 100%;
+  color: #9d8779;
+  font-family: 'Forum';
+
+}
+
+#CartoesAtendimentos {
+  position: relative;
+  top: 7rem;
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #eee4e2;
+  font-family: 'Forum';
+
+}
+
+.btn-primary {
+  background-color: #9d8779 !important;
+  color: #eee4e2 !important;
+  border: none !important;
+}
+
+
+.card {
+  font-family: 'Forum';
+  background-color: #eee4e2 !important;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 35vh;
+}
+
+footer {
+
+  height: 35vh;
+  width: 100%;
+  font-family: 'Forum';
+  font-weight: 300;
+  background-color: #eee4e2;
+
+}
+
+
+.textocontato {
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.Contato {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+
+}
+
+.descricacaonutri {
+  position: relative;
+  top: 1rem;
+  font-size: 25px;
+
+  width: 14rem;
+  height: 14rem;
+}
+
+#formasdecontato {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35vw;
+  height: 250px;
+
+}
+
+.svg {
+
+  height: 25px;
+}
+
+.Comomeencontrar {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+
+}
+
+.Comomeencontrar a {
+
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #9d8779;
+  font-family: 'Forum';
+}
+
+.redessociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20vw;
+  height: 250px;
+
+
+}
+
+.midias {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+
+}
+
+.midias a {
+  padding-left: 0.4rem;
+  text-decoration: none;
+  color: #9d8779;
+  font-family: 'Forum';
+}
