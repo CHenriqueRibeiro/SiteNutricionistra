@@ -14,7 +14,7 @@
     <header>
         <div class="row" style="
         margin-right: 0px;">
-            <nav class="navbar  navbar-expand-md  " style="background-color: #E9D7C9;">
+            <nav class="navbar  navbar-expand-md  " style="background-color: #E9D7C9; color: #764B2E;">
                 <div class="container-md  ps-4">
                     <a class="navbar-brand " href="#">Logo</a>
                     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,16 +24,16 @@
                     <div class="collapse justify-content-end navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav ">
                             <li class="nav-item ">
-                                <a class="nav-link  " aria-current="page" href="#">Apresentação</a>
+                                <a class="nav-link  " aria-current="page" href="##Apresentação">Apresentação</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Atendimento</a>
+                                <a class="nav-link" href="#Especialidades">Especialidades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Especialidades</a>
+                                <a class="nav-link" href="#Atendimento">Atendimento</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ">Contato</a>
+                                <a class="nav-link " href="#Contato">Contato</a>
                             </li>
                         </ul>
                     </div>
@@ -69,8 +69,8 @@
             </div>
         </div>
     </header>
-    <main style="background-color:#E8D7CA">
-        <section id="Secao1" class="position-relative" ; style="top: 20px;">
+    <main style="background-color:#EEE4E2;">
+        <section id="Apresentação" class="position-relative" ; style="top: 20px;">
             <div id="Sobre" class="container-sm rounded mx-auto" style="background-color:#9D8779;width: 85vw;">
                 <div class="row d-flex flex-sm-column-reverse flex-column-reverse flex-md-column-reverse">
                     <div class="col align-self-start mt-3 ">
@@ -92,21 +92,23 @@
                 </div>
 
         </section>
-        <section id="Secao2" class="position-relative " style="
-        top: 55px;height: 120%;
+        <section id="Especialidades" class="position-relative " style=" background-image: url(/imagens/back.png);background-repeat: no-repeat;background-size: cover;
+        top: 25px;height: 120%;
     ">
-            <p class="fs-3 text-center mt-5">Especialidades</p>
+            <p class="fs-3 text-center  m-5 " style="padding-top: 050px; color:  #764B2E;">Especialidades</p>
             <div class="col ">
                 <div class="container-fluid d-grid gap-5" style="
                 margin-top: 0px;
-                margin-bottom: 200px;
+                margin-bottom: 1px;
             ">
                     <div class=" card mx-auto rounded-4" style="width: 20rem;background-color:#9D8779;color: #E8D7CA;">
                         <div class="card-body">
                             <h5 class="card-title text-center">Emagrecimento</h5>
                             <p class="card-text ">Temos um excelente plano alimentar, venha marcar sua
                                 consulta.</p>
-                            <a href="#" class="card-link " style="color: #332b25;text-decoration:none">Saiba Mais</a>
+                            <a href="#" class="btn btn-primary "
+                                style="color: #764B2E;background-color: #E8D7CA; border: none;margin-left: 95px;">Saiba
+                                Mais</a>
                         </div>
                     </div>
                     <div class="card mx-auto  rounded-4" style="width: 20rem;background-color:#9D8779;color: #E8D7CA;">
@@ -114,7 +116,9 @@
                             <h5 class="card-title text-center">Hipertrofia</h5>
                             <p class="card-text">Temos um excelente plano alimentar, venha marcar sua
                                 consulta.</p>
-                            <a href="#" class="card-link" style="color: #332b25;text-decoration:none">Saiba Mais</a>
+                            <a href="#" class="btn btn-primary "
+                                style="color: #764B2E;background-color: #E8D7CA; border: none;margin-left: 95px;">Saiba
+                                Mais</a>
 
                         </div>
                     </div>
@@ -124,21 +128,29 @@
                             <p class="card-text">Temos um excelente plano alimentar, venha marcar sua
                                 consulta.
                             </p>
-                            <a href="#" class="btn btn-primary ju"
-                                style="color: #332b25;background-color: #E8D7CA; border: none;">Saiba Mais</a>
+                            <a href="#" class="btn btn-primary "
+                                style="color: #764B2E;background-color: #E8D7CA; border: none;margin-left: 95px;">Saiba
+                                Mais</a>
 
                         </div>
                     </div>
                 </div>
             </div>
 
-        </section>
-        <section id="Secao3">
-            <div id="Atendimentoeeventos" class="text-center pb-4">
-                <h2>Atendimentos & Eventos</h2>
+        </section>->
+        <section id="Atendimento" class="position-relative "
+            style="background-color: #E9D7C9;top: 0px;height: auto;color:  #764B2E;">
+            <div id="Atendimentoeeventos" class="text-center " style="
+            padding-top: 71px;
+        ">
+                <h2 style="
+    margin-bottom: 65px;
+">Atendimentos &amp; Eventos</h2>
             </div>
             <div class="col ">
-                <div id="CartoesAtendimentos" class="position-relative d-grid gap-4 justify-content-center">
+                <div id="CartoesAtendimentos" class="position-relative d-grid gap-4 justify-content-center" style="
+                top: -25px;
+            ">
                     <div class="card" style="width: 18rem;">
                         <img src="/imagens/atendimento presencial.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -171,64 +183,56 @@
             </div>
         </section>
     </main>
-    <!--<footer>
-        <div class="textocontato">
-            <h2>Contato</h2>
+    <footer id class="position-relative " style=" width: 100vw;height: 50%;background-color:#EEE4E2;">
+        <div class="container-fluid pt-2">
+            <h3 class="text-center">Contato</h3>
         </div>
-
-        <div class="Contato">
-            <div class="descricacaonutri">
-                <h2 class="nomelivia">Livian Carvalho</h2>
-                <h3 class="nomenutri">Nutricionista</h3>
-                <p class="nomecrm">CRN 25216</p>
-            </div>
-
-            <div id="formasdecontato">
-                <div class="Comomeencontrar">
-                    <img class="svg" src="/imagens/svg local.svg" alt="">
-                    <a href="https://goo.gl/maps/rqKBaMHW6JjMGyNG6">
-                        <h5>BS TOWER - Rua Gonçalves Ledo, 777 - Aldeota</h5>
-                    </a>
+        <div class="container-fluid justify-content-center" style="
+        padding-top: 15px;">
+            <div class=" row">
+                <div class="col-2" style="width: fit-content;padding-right: 7px;">
+                    <img src="/imagens/svg instagram.svg" alt="" style="height: 15px;">
                 </div>
-                <div class="Comomeencontrar">
-                    <img class="svg" src="/imagens/svg email.svg" alt="">
-                    <a href="mailto: nutri.liviancarvalho@gmail.com">
-                        <h5>nutri.liviancarvalho@gmail.com</h5>
-                    </a>
-                </div>
-                <div class="Comomeencontrar">
-                    <img class="svg" src="/imagens/svg telefone.svg" alt="">
-                    <a href="tel:+55 85 98541-2205">
-                        <h5>(85) 98541-2205 </h5>
-                    </a>
+                <div class="col-10" style=" padding-left: 0px;">
+                    <p class="col" style="padding-top: 1px;">liviancarvalhonutri</p>
                 </div>
             </div>
-
-            <div class="redessociais">
-                <div class="midias">
-                    <img class="svg" src="/imagens/svg zap.svg" alt="">
-                    <a href="https://api.whatsapp.com/send?phone=5585985412205&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20uma%20consulta"
-                        target="_blank" rel="noopener noreferrer">
-                        <h5>(85) 98541-2205</h5>
-                    </a>
+            <div class=" row">
+                <div class="col-2" style="width: fit-content;padding-right: 7px;">
+                    <img src="/imagens/svg facebook.svg" alt="" style="height: 15px;">
                 </div>
-                <div class="midias">
-                    <img class="svg" src="/imagens/svg instagram.svg" alt="">
-                    <a href="https:https://www.instagram.com/liviancarvalhonutri/" target="_blank"
-                        rel="noopener noreferrer">
-                        <h5>liviancarvalhonutri</h5>
-                    </a>
+                <div class="col-10" style=" padding-left: 0px;">
+                    <p class="col" style="padding-top: 1px;">liviancarvalhonutri</p>
                 </div>
-                <div class="midias">
-                    <img class="svg" src="/imagens/svg facebook.svg" alt="">
-                    <a href="https:https://www.facebook.com/liviancarvalhonutri/" target="_blank"
-                        rel="noopener noreferrer">
-                        <h5>liviancarvalhonutri</h5>
-                    </a>
-                </div>
-
             </div>
-    </footer>-->
+            <div class=" row">
+                <div class="col-2" style="width: fit-content;padding-right: 7px;">
+                    <img src="/imagens/svg zap.svg" alt="" style="height: 15px;">
+                </div>
+                <div class="col-10" style=" padding-left: 0px;">
+                    <p class="col" style="padding-top: 1px;">liviancarvalhonutri</p>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-2" style="width: fit-content;padding-right: 7px;">
+                    <img src="/imagens/svg email.svg" alt="" style="height: 15px;">
+                </div>
+                <div class="col-10" style=" padding-left: 0px;">
+                    <p class="col" style="padding-top: 1px;">liviancarvalhonutri</p>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-2" style="width: fit-content;padding-right: 7px;">
+                    <img src="/imagens/svg local.svg" alt="" style="height: 15px;">
+                </div>
+                <div class="col-10" style=" padding-left: 0px;">
+                    <p class="col" style="padding-top: 1px;">liviancarvalhonutri</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
