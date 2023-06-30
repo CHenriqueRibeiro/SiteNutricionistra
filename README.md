@@ -1,1 +1,1 @@
-Site feito para nutricionista, foi feito eem bootstrap, com a responsividade testada em todos os dispositivos 
+Site feito para uma nutricionista, foi feito em bootstrap, com a responsividade testada em todos os dispositivos 
